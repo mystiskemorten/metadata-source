@@ -1977,6 +1977,38 @@
     "identifierVariables": [
       {
         "dataType": "String",
+        "label": "Organisasjonsidentifikator",
+        "name": "ORGID",
+        "variableRole": "Identifier",
+        "format": "String",
+        "keyType": {
+          "description": {
+            "languageCode": "en",
+            "value": "Organization ID"
+          },
+          "label": "Organization",
+          "name": "ORGANIZATION"
+        },
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Identifikator for Organisasjon i Brønnøysundregistrene (BRREG)"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      },
+      {
+        "dataType": "String",
         "label": "Skole navn",
         "name": "UDIR_SCHOOL_NAME",
         "variableRole": "Identifier",
