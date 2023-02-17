@@ -1855,5 +1855,132 @@
         }
       ]
     }
+  },
+  {
+    "name": "UDIR_NUMBERS_ACCUM",
+    "datastore_id": "no.kudaf.udir",
+    "populationDescription": {
+      "languageCode": "en",
+      "value": "These are some events from udir"
+    },
+    "subjectFields": [
+      "Number Events"
+    ],
+    "temporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporality": "ACCUMULATED",
+    "globalTemporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporalStatusDates": null,
+    "updatedAt": "1969-12-31T16:53:53",
+    "attributeVariables": [
+      {
+        "dataType": "Instant",
+        "label": "Startdato",
+        "name": "START",
+        "variableRole": "Start",
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Startdato/måletidspunktet for hendelsen"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      },
+      {
+        "dataType": "Instant",
+        "label": "Stoppdato",
+        "name": "STOP",
+        "variableRole": "Stop",
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Stoppdato/sluttdato for hendelsen"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "identifierVariables": [
+      {
+        "dataType": "String",
+        "label": "Organisasjonsidentifikator",
+        "name": "ORGID",
+        "variableRole": "Identifier",
+        "format": "String",
+        "keyType": {
+          "description": {
+            "languageCode": "en",
+            "value": "Organization ID"
+          },
+          "label": "Organization",
+          "name": "ORGANIZATION"
+        },
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Identifikator for Organisasjon i Brønnøysundregistrene (BRREG)"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "measureVariable": {
+      "dataType": "String",
+      "label": "Akkumulerte Feide-pålogginger i en gitt skole",
+      "name": "FEIDESTATS_LOGINS_SCHOOL_ACCUM",
+      "variableRole": "Measure",
+      "representedVariables": [
+        {
+          "description": {
+            "languageCode": "nb",
+            "value": "Variabelen viser en telling av akkumulerte Feide-pålogginger i en gitt skole i løpet av en gitt tidsperiode"
+          },
+          "validPeriod": {
+            "start": "2023-02-07T21:14:08.998000",
+            "stop": null
+          },
+          "valueDomain": {
+            "uriDefinition": null,
+            "description": "N/A",
+            "unitOfMeasure": "N/A"
+          }
+        }
+      ]
+    }
   }
 ]
