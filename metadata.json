@@ -1882,22 +1882,22 @@
       {
         "dataType": "String",
         "label": "Organisasjonsidentifikator",
-        "name": "FEIDE_ORGID",
+        "name": "ORGID",
         "variableRole": "Identifier",
         "format": "String",
         "keyType": {
           "description": {
             "languageCode": "en",
-            "value": "Feide Organization ID"
+            "value": "Organization ID"
           },
-          "label": "Feide_Org",
-          "name": "FEIDE_ORG_ID"
+          "label": "Organization",
+          "name": "ORGANIZATION"
         },
         "representedVariables": [
           {
             "description": {
               "languageCode": "nb",
-              "value": "Identifikator for Feide Organisasjon i Feide API"
+              "value": "Identifikator for Organisasjon i Brønnøysundregistrene (BRREG)"
             },
             "validPeriod": {
               "start": "2023-02-07T21:14:08.998000",
@@ -2006,38 +2006,6 @@
             }
           }
         ]
-      },
-      {
-        "dataType": "String",
-        "label": "Organisasjonsidentifikator",
-        "name": "SCHOOL_ID",
-        "variableRole": "Identifier",
-        "format": "String",
-        "keyType": {
-          "description": {
-            "languageCode": "en",
-            "value": "Feide Organization ID"
-          },
-          "label": "Feide_Org",
-          "name": "FEIDE_ORG_ID"
-        },
-        "representedVariables": [
-          {
-            "description": {
-              "languageCode": "nb",
-              "value": "Identifikator for Feide Organisasjon i Feide API"
-            },
-            "validPeriod": {
-              "start": "2023-02-07T21:14:08.998000",
-              "stop": null
-            },
-            "valueDomain": {
-              "uriDefinition": null,
-              "description": "N/A",
-              "unitOfMeasure": "N/A"
-            }
-          }
-        ]
       }
     ],
     "measureVariable": {
@@ -2103,38 +2071,6 @@
     "updatedAt": "1969-12-31T16:53:53",
     "attributeVariables": null,
     "identifierVariables": [
-      {
-        "dataType": "String",
-        "label": "Organisasjonsidentifikator",
-        "name": "FEIDE_ORGID",
-        "variableRole": "Identifier",
-        "format": "String",
-        "keyType": {
-          "description": {
-            "languageCode": "en",
-            "value": "Feide Organization ID"
-          },
-          "label": "Feide_Org",
-          "name": "FEIDE_ORG_ID"
-        },
-        "representedVariables": [
-          {
-            "description": {
-              "languageCode": "nb",
-              "value": "Identifikator for Feide Organisasjon i Feide API"
-            },
-            "validPeriod": {
-              "start": "2023-02-07T21:14:08.998000",
-              "stop": null
-            },
-            "valueDomain": {
-              "uriDefinition": null,
-              "description": "N/A",
-              "unitOfMeasure": "N/A"
-            }
-          }
-        ]
-      },
       {
         "dataType": "String",
         "label": "Alle UDIR skole ID",
