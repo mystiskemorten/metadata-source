@@ -1857,37 +1857,47 @@
     }
   },
   {
-    "name": "UDIR_NUMBERS_ACCUM",
+    "name": "UDIR_SCHOOL_NAME",
     "datastore_id": "no.kudaf.udir",
     "populationDescription": {
       "languageCode": "en",
-      "value": "These are some events from udir"
+      "value": "Name of schools"
     },
     "subjectFields": [
-      "Number Events"
+      "School"
     ],
     "temporalCoverage": {
       "start": "2023-02-07T21:14:08.998000",
       "stop": null
     },
-    "temporality": "ACCUMULATED",
+    "temporality": "FIXED",
     "globalTemporalCoverage": {
       "start": "2023-02-07T21:14:08.998000",
       "stop": null
     },
     "temporalStatusDates": null,
     "updatedAt": "1969-12-31T16:53:53",
-    "attributeVariables": [
+    "attributeVariables": null,
+    "identifierVariables": [
       {
-        "dataType": "Instant",
-        "label": "Startdato",
-        "name": "START",
-        "variableRole": "Start",
+        "dataType": "String",
+        "label": "Organisasjonsidentifikator",
+        "name": "FEIDE_ORGID",
+        "variableRole": "Identifier",
+        "format": "String",
+        "keyType": {
+          "description": {
+            "languageCode": "en",
+            "value": "Feide Organization ID"
+          },
+          "label": "Feide_Org",
+          "name": "FEIDE_ORG_ID"
+        },
         "representedVariables": [
           {
             "description": {
               "languageCode": "nb",
-              "value": "Startdato/måletidspunktet for hendelsen"
+              "value": "Identifikator for Feide Organisasjon i Feide API"
             },
             "validPeriod": {
               "start": "2023-02-07T21:14:08.998000",
@@ -1902,49 +1912,24 @@
         ]
       },
       {
-        "dataType": "Instant",
-        "label": "Stoppdato",
-        "name": "STOP",
-        "variableRole": "Stop",
-        "representedVariables": [
-          {
-            "description": {
-              "languageCode": "nb",
-              "value": "Stoppdato/sluttdato for hendelsen"
-            },
-            "validPeriod": {
-              "start": "2023-02-07T21:14:08.998000",
-              "stop": null
-            },
-            "valueDomain": {
-              "uriDefinition": null,
-              "description": "N/A",
-              "unitOfMeasure": "N/A"
-            }
-          }
-        ]
-      }
-    ],
-    "identifierVariables": [
-      {
         "dataType": "String",
-        "label": "Organisasjonsidentifikator",
-        "name": "ORGID",
+        "label": "Skole navn",
+        "name": "UDIR_SCHOOL_NAME",
         "variableRole": "Identifier",
         "format": "String",
         "keyType": {
           "description": {
             "languageCode": "en",
-            "value": "Organization ID"
+            "value": "UDIR School Name"
           },
-          "label": "Organization",
-          "name": "ORGANIZATION"
+          "label": "Udir_School_Name",
+          "name": "UDIR_SCHOOL_NAME"
         },
         "representedVariables": [
           {
             "description": {
               "languageCode": "nb",
-              "value": "Identifikator for Organisasjon i Brønnøysundregistrene (BRREG)"
+              "value": "Navn til skoler i NSR API"
             },
             "validPeriod": {
               "start": "2023-02-07T21:14:08.998000",
@@ -1961,14 +1946,14 @@
     ],
     "measureVariable": {
       "dataType": "String",
-      "label": "Akkumulerte Feide-pålogginger i en gitt skole",
-      "name": "FEIDESTATS_LOGINS_SCHOOL_ACCUM",
+      "label": "Alle UDIR skoler's navn",
+      "name": "UDIR_SCHOOL_NAME",
       "variableRole": "Measure",
       "representedVariables": [
         {
           "description": {
             "languageCode": "nb",
-            "value": "Variabelen viser en telling av akkumulerte Feide-pålogginger i en gitt skole i løpet av en gitt tidsperiode"
+            "value": "Variabelen viser alle tilgjengelig skolenavn i UDIR"
           },
           "validPeriod": {
             "start": "2023-02-07T21:14:08.998000",
@@ -1976,8 +1961,120 @@
           },
           "valueDomain": {
             "uriDefinition": null,
-            "description": "N/A",
-            "unitOfMeasure": "N/A"
+            "codeList": [
+              {
+                "categoryTitle": [
+                  {
+                    "languageCode": "en",
+                    "value": "UDIR School Name"
+                  }
+                ],
+                "code": "1",
+                "validPeriod": {
+                  "start": "2023-02-07T21:14:08.998000",
+                  "stop": null
+                }
+              }
+            ],
+            "missingValues": [],
+            "add": [],
+            "remove": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "UDIR_STUDENT_TOTAL",
+    "datastore_id": "no.kudaf.udir",
+    "populationDescription": {
+      "languageCode": "en",
+      "value": "Total number of students"
+    },
+    "subjectFields": [
+      "School"
+    ],
+    "temporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporality": "FIXED",
+    "globalTemporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporalStatusDates": null,
+    "updatedAt": "1969-12-31T16:53:53",
+    "attributeVariables": null,
+    "identifierVariables": [
+      {
+        "dataType": "String",
+        "label": "Skole navn",
+        "name": "UDIR_SCHOOL_NAME",
+        "variableRole": "Identifier",
+        "format": "String",
+        "keyType": {
+          "description": {
+            "languageCode": "en",
+            "value": "UDIR School Name"
+          },
+          "label": "Udir_School_Name",
+          "name": "UDIR_SCHOOL_NAME"
+        },
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Navn til skoler i NSR API"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "measureVariable": {
+      "dataType": "Long",
+      "label": "Totalt antall studenter på skole",
+      "name": "UDIR_STUDENT_TOTAL",
+      "variableRole": "Measure",
+      "representedVariables": [
+        {
+          "description": {
+            "languageCode": "nb",
+            "value": "Variabelen viser totalt antall studenter på en skole"
+          },
+          "validPeriod": {
+            "start": "2023-02-07T21:14:08.998000",
+            "stop": null
+          },
+          "valueDomain": {
+            "uriDefinition": null,
+            "codeList": [
+              {
+                "categoryTitle": [
+                  {
+                    "languageCode": "en",
+                    "value": "Total Students"
+                  }
+                ],
+                "code": "1",
+                "validPeriod": {
+                  "start": "2023-02-07T21:14:08.998000",
+                  "stop": null
+                }
+              }
+            ],
+            "missingValues": [],
+            "add": [],
+            "remove": []
           }
         }
       ]
