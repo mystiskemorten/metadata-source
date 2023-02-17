@@ -1857,6 +1857,102 @@
     }
   },
   {
+    "name": "UDIR_SCHOOL_ID",
+    "datastore_id": "no.kudaf.udir",
+    "populationDescription": {
+      "languageCode": "en",
+      "value": "ID of schools"
+    },
+    "subjectFields": [
+      "School"
+    ],
+    "temporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporality": "FIXED",
+    "globalTemporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporalStatusDates": null,
+    "updatedAt": "1969-12-31T16:53:53",
+    "attributeVariables": null,
+    "identifierVariables": [
+      {
+        "dataType": "String",
+        "label": "Organisasjonsidentifikator",
+        "name": "FEIDE_ORGID",
+        "variableRole": "Identifier",
+        "format": "String",
+        "keyType": {
+          "description": {
+            "languageCode": "en",
+            "value": "Feide Organization ID"
+          },
+          "label": "Feide_Org",
+          "name": "FEIDE_ORG_ID"
+        },
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Identifikator for Feide Organisasjon i Feide API"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "measureVariable": {
+      "dataType": "String",
+      "label": "Alle UDIR skole ID",
+      "name": "UDIR_SCHOOL_ID",
+      "variableRole": "Measure",
+      "representedVariables": [
+        {
+          "description": {
+            "languageCode": "nb",
+            "value": "Variabelen viser alle tilgjengelig ID'er til skoler i UDIR"
+          },
+          "validPeriod": {
+            "start": "2023-02-07T21:14:08.998000",
+            "stop": null
+          },
+          "valueDomain": {
+            "uriDefinition": null,
+            "codeList": [
+              {
+                "categoryTitle": [
+                  {
+                    "languageCode": "en",
+                    "value": "UDIR School ID"
+                  }
+                ],
+                "code": "1",
+                "validPeriod": {
+                  "start": "2023-02-07T21:14:08.998000",
+                  "stop": null
+                }
+              }
+            ],
+            "missingValues": [],
+            "add": [],
+            "remove": []
+          }
+        }
+      ]
+    }
+  },
+  {
     "name": "UDIR_SCHOOL_NAME",
     "datastore_id": "no.kudaf.udir",
     "populationDescription": {
@@ -1881,23 +1977,55 @@
     "identifierVariables": [
       {
         "dataType": "String",
-        "label": "Organisasjonsidentifikator",
-        "name": "ORGID",
+        "label": "Alle UDIR skole ID",
+        "name": "UDIR_SCHOOL_ID",
         "variableRole": "Identifier",
         "format": "String",
         "keyType": {
           "description": {
             "languageCode": "en",
-            "value": "Organization ID"
+            "value": "UDIR School ID"
           },
-          "label": "Organization",
-          "name": "ORGANIZATION"
+          "label": "Udir_school",
+          "name": "UDIR_SCHOOL_ID"
         },
         "representedVariables": [
           {
             "description": {
               "languageCode": "nb",
-              "value": "Identifikator for Organisasjon i Brønnøysundregistrene (BRREG)"
+              "value": "Variabelen er identifikator for skole i UDIR"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      },
+      {
+        "dataType": "String",
+        "label": "Organisasjonsidentifikator",
+        "name": "SCHOOL_ID",
+        "variableRole": "Identifier",
+        "format": "String",
+        "keyType": {
+          "description": {
+            "languageCode": "en",
+            "value": "Feide Organization ID"
+          },
+          "label": "Feide_Org",
+          "name": "FEIDE_ORG_ID"
+        },
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Identifikator for Feide Organisasjon i Feide API"
             },
             "validPeriod": {
               "start": "2023-02-07T21:14:08.998000",
@@ -1978,22 +2106,22 @@
       {
         "dataType": "String",
         "label": "Organisasjonsidentifikator",
-        "name": "ORGID",
+        "name": "FEIDE_ORGID",
         "variableRole": "Identifier",
         "format": "String",
         "keyType": {
           "description": {
             "languageCode": "en",
-            "value": "Organization ID"
+            "value": "Feide Organization ID"
           },
-          "label": "Organization",
-          "name": "ORGANIZATION"
+          "label": "Feide_Org",
+          "name": "FEIDE_ORG_ID"
         },
         "representedVariables": [
           {
             "description": {
               "languageCode": "nb",
-              "value": "Identifikator for Organisasjon i Brønnøysundregistrene (BRREG)"
+              "value": "Identifikator for Feide Organisasjon i Feide API"
             },
             "validPeriod": {
               "start": "2023-02-07T21:14:08.998000",
@@ -2009,23 +2137,23 @@
       },
       {
         "dataType": "String",
-        "label": "Skole navn",
-        "name": "UDIR_SCHOOL_NAME",
+        "label": "Alle UDIR skole ID",
+        "name": "UDIR_SCHOOL_ID",
         "variableRole": "Identifier",
         "format": "String",
         "keyType": {
           "description": {
             "languageCode": "en",
-            "value": "UDIR School Name"
+            "value": "UDIR School ID"
           },
-          "label": "Udir_School_Name",
-          "name": "UDIR_SCHOOL_NAME"
+          "label": "Udir_school",
+          "name": "UDIR_SCHOOL_ID"
         },
         "representedVariables": [
           {
             "description": {
               "languageCode": "nb",
-              "value": "Navn til skoler i NSR API"
+              "value": "Variabelen er identifikator for skole i UDIR"
             },
             "validPeriod": {
               "start": "2023-02-07T21:14:08.998000",
