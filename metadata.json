@@ -1,1 +1,1859 @@
-[]
+[
+  {
+    "name": "FEIDESTATS_LOGINS_FORG_ACCUM",
+    "datastore_id": "feideStats",
+    "populationDescription": {
+      "languageCode": "en",
+      "value": "Feide Login Events"
+    },
+    "subjectFields": [
+      "Login Events"
+    ],
+    "temporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporality": "ACCUMULATED",
+    "globalTemporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporalStatusDates": null,
+    "updatedAt": "1969-12-31T16:53:53",
+    "attributeVariables": [
+      {
+        "dataType": "Instant",
+        "label": "Startdato",
+        "name": "START",
+        "variableRole": "Start",
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Startdato/måletidspunktet for hendelsen"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      },
+      {
+        "dataType": "Instant",
+        "label": "Stoppdato",
+        "name": "STOP",
+        "variableRole": "Stop",
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Stoppdato/sluttdato for hendelsen"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "identifierVariables": [
+      {
+        "dataType": "String",
+        "label": "Organisasjonsidentifikator",
+        "name": "FEIDE_ORGID",
+        "variableRole": "Identifier",
+        "format": "String",
+        "keyType": {
+          "description": {
+            "languageCode": "en",
+            "value": "Feide Organization ID"
+          },
+          "label": "Feide_Org",
+          "name": "FEIDE_ORG_ID"
+        },
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Identifikator for Feide Organisasjon i Feide API"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "measureVariable": {
+      "dataType": "String",
+      "label": "Akkumulerte Feide-pålogginger i en gitt Feide organisasjon",
+      "name": "FEIDESTATS_LOGINS_FORG_ACCUM",
+      "variableRole": "Measure",
+      "representedVariables": [
+        {
+          "description": {
+            "languageCode": "nb",
+            "value": "Variabelen viser en telling av akkumulerte Feide-pålogginger i en gitt Feide organisasjon i løpet av en gitt tidsperiode"
+          },
+          "validPeriod": {
+            "start": "2023-02-07T21:14:08.998000",
+            "stop": null
+          },
+          "valueDomain": {
+            "uriDefinition": null,
+            "description": "N/A",
+            "unitOfMeasure": "N/A"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "FEIDESTATS_LOGINS_SCHOOL_ACCUM",
+    "datastore_id": "feideStats",
+    "populationDescription": {
+      "languageCode": "en",
+      "value": "Feide Login Events"
+    },
+    "subjectFields": [
+      "Login Events"
+    ],
+    "temporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporality": "ACCUMULATED",
+    "globalTemporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporalStatusDates": null,
+    "updatedAt": "1969-12-31T16:53:53",
+    "attributeVariables": [
+      {
+        "dataType": "Instant",
+        "label": "Startdato",
+        "name": "START",
+        "variableRole": "Start",
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Startdato/måletidspunktet for hendelsen"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      },
+      {
+        "dataType": "Instant",
+        "label": "Stoppdato",
+        "name": "STOP",
+        "variableRole": "Stop",
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Stoppdato/sluttdato for hendelsen"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "identifierVariables": [
+      {
+        "dataType": "String",
+        "label": "Organisasjonsidentifikator",
+        "name": "ORGID",
+        "variableRole": "Identifier",
+        "format": "String",
+        "keyType": {
+          "description": {
+            "languageCode": "en",
+            "value": "Organization ID"
+          },
+          "label": "Organization",
+          "name": "ORGANIZATION"
+        },
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Identifikator for Organisasjon i Brønnøysundregistrene (BRREG)"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "measureVariable": {
+      "dataType": "String",
+      "label": "Akkumulerte Feide-pålogginger i en gitt skole",
+      "name": "FEIDESTATS_LOGINS_SCHOOL_ACCUM",
+      "variableRole": "Measure",
+      "representedVariables": [
+        {
+          "description": {
+            "languageCode": "nb",
+            "value": "Variabelen viser en telling av akkumulerte Feide-pålogginger i en gitt skole i løpet av en gitt tidsperiode"
+          },
+          "validPeriod": {
+            "start": "2023-02-07T21:14:08.998000",
+            "stop": null
+          },
+          "valueDomain": {
+            "uriDefinition": null,
+            "description": "N/A",
+            "unitOfMeasure": "N/A"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "FEIDESTATS_LOGINS_SP_ACCUM",
+    "datastore_id": "feideStats",
+    "populationDescription": {
+      "languageCode": "en",
+      "value": "Feide Login Events"
+    },
+    "subjectFields": [
+      "Login Events"
+    ],
+    "temporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporality": "ACCUMULATED",
+    "globalTemporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporalStatusDates": null,
+    "updatedAt": "1969-12-31T16:53:53",
+    "attributeVariables": [
+      {
+        "dataType": "Instant",
+        "label": "Startdato",
+        "name": "START",
+        "variableRole": "Start",
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Startdato/måletidspunktet for hendelsen"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      },
+      {
+        "dataType": "Instant",
+        "label": "Stoppdato",
+        "name": "STOP",
+        "variableRole": "Stop",
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Stoppdato/sluttdato for hendelsen"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "identifierVariables": [
+      {
+        "dataType": "String",
+        "label": "Tjenestersidentifikator",
+        "name": "FEIDE_SPID",
+        "variableRole": "Identifier",
+        "format": "String",
+        "keyType": {
+          "description": {
+            "languageCode": "en",
+            "value": "Feide Service ID"
+          },
+          "label": "Feide_Service",
+          "name": "FEIDE_SPID"
+        },
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Identifikator for Tjenester som organisasjonen abboner på i Feide"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "measureVariable": {
+      "dataType": "String",
+      "label": "Akkumulerte Feide-pålogginger til en gitt tjenesteleverandør",
+      "name": "FEIDESTATS_LOGINS_SP_ACCUM",
+      "variableRole": "Measure",
+      "representedVariables": [
+        {
+          "description": {
+            "languageCode": "nb",
+            "value": "Variabelen viser en telling av akkumulerte Feide-pålogginger til en gitt tjenesteleverandør i løpet av en gitt tidsperiode"
+          },
+          "validPeriod": {
+            "start": "2023-02-07T21:14:08.998000",
+            "stop": null
+          },
+          "valueDomain": {
+            "uriDefinition": null,
+            "description": "N/A",
+            "unitOfMeasure": "N/A"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "FEIDESTATS_LOGINS_FORG_SP_ACCUM",
+    "datastore_id": "feideStats",
+    "populationDescription": {
+      "languageCode": "en",
+      "value": "Feide Login Events"
+    },
+    "subjectFields": [
+      "Login Events"
+    ],
+    "temporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporality": "ACCUMULATED",
+    "globalTemporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporalStatusDates": null,
+    "updatedAt": "1969-12-31T16:53:53",
+    "attributeVariables": [
+      {
+        "dataType": "Instant",
+        "label": "Startdato",
+        "name": "START",
+        "variableRole": "Start",
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Startdato/måletidspunktet for hendelsen"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      },
+      {
+        "dataType": "Instant",
+        "label": "Stoppdato",
+        "name": "STOP",
+        "variableRole": "Stop",
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Stoppdato/sluttdato for hendelsen"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "identifierVariables": [
+      {
+        "dataType": "String",
+        "label": "Organisasjonsidentifikator",
+        "name": "FEIDE_ORGID",
+        "variableRole": "Identifier",
+        "format": "String",
+        "keyType": {
+          "description": {
+            "languageCode": "en",
+            "value": "Feide Organization ID"
+          },
+          "label": "Feide_Org",
+          "name": "FEIDE_ORG_ID"
+        },
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Identifikator for Feide Organisasjon i Feide API"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      },
+      {
+        "dataType": "String",
+        "label": "Tjenestersidentifikator",
+        "name": "FEIDE_SPID",
+        "variableRole": "Identifier",
+        "format": "String",
+        "keyType": {
+          "description": {
+            "languageCode": "en",
+            "value": "Feide Service ID"
+          },
+          "label": "Feide_Service",
+          "name": "FEIDE_SPID"
+        },
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Identifikator for Tjenester som organisasjonen abboner på i Feide"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "measureVariable": {
+      "dataType": "String",
+      "label": "Akkumulerte Feide-pålogginger i en gitt organisasjon til en gitt tjenesteleverandør",
+      "name": "FEIDESTATS_LOGINS_FORG_SP_ACCUM",
+      "variableRole": "Measure",
+      "representedVariables": [
+        {
+          "description": {
+            "languageCode": "nb",
+            "value": "Variabelen viser en telling av akkumulerte Feide-pålogginger fra en gitt Feide organisasjon til en gitt tjenesteleverandør i løpet av en gitt tidsperiode"
+          },
+          "validPeriod": {
+            "start": "2023-02-07T21:14:08.998000",
+            "stop": null
+          },
+          "valueDomain": {
+            "uriDefinition": null,
+            "description": "N/A",
+            "unitOfMeasure": "N/A"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "FEIDESTATS_LOGINS_SCHOOL_SP_ACCUM",
+    "datastore_id": "feideStats",
+    "populationDescription": {
+      "languageCode": "en",
+      "value": "Feide Login Events"
+    },
+    "subjectFields": [
+      "Login Events"
+    ],
+    "temporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporality": "ACCUMULATED",
+    "globalTemporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporalStatusDates": null,
+    "updatedAt": "1969-12-31T16:53:53",
+    "attributeVariables": [
+      {
+        "dataType": "Instant",
+        "label": "Startdato",
+        "name": "START",
+        "variableRole": "Start",
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Startdato/måletidspunktet for hendelsen"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      },
+      {
+        "dataType": "Instant",
+        "label": "Stoppdato",
+        "name": "STOP",
+        "variableRole": "Stop",
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Stoppdato/sluttdato for hendelsen"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "identifierVariables": [
+      {
+        "dataType": "String",
+        "label": "Organisasjonsidentifikator",
+        "name": "ORGID",
+        "variableRole": "Identifier",
+        "format": "String",
+        "keyType": {
+          "description": {
+            "languageCode": "en",
+            "value": "Organization ID"
+          },
+          "label": "Organization",
+          "name": "ORGANIZATION"
+        },
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Identifikator for Organisasjon i Brønnøysundregistrene (BRREG)"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      },
+      {
+        "dataType": "String",
+        "label": "Tjenestersidentifikator",
+        "name": "FEIDE_SPID",
+        "variableRole": "Identifier",
+        "format": "String",
+        "keyType": {
+          "description": {
+            "languageCode": "en",
+            "value": "Feide Service ID"
+          },
+          "label": "Feide_Service",
+          "name": "FEIDE_SPID"
+        },
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Identifikator for Tjenester som organisasjonen abboner på i Feide"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "measureVariable": {
+      "dataType": "String",
+      "label": "Akkumulerte Feide-pålogginger i en gitt skole til en gitt tjenesteleverandør",
+      "name": "FEIDESTATS_LOGINS_SCHOOL_SP_ACCUM",
+      "variableRole": "Measure",
+      "representedVariables": [
+        {
+          "description": {
+            "languageCode": "nb",
+            "value": "Variabelen viser en telling av akkumulerte Feide-pålogginger fra en gitt skole til en gitt tjenesteleverandør i løpet av en gitt tidsperiode"
+          },
+          "validPeriod": {
+            "start": "2023-02-07T21:14:08.998000",
+            "stop": null
+          },
+          "valueDomain": {
+            "uriDefinition": null,
+            "description": "N/A",
+            "unitOfMeasure": "N/A"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "FEIDESTATS_MFAS_FORG_ACCUM",
+    "datastore_id": "feideStats",
+    "populationDescription": {
+      "languageCode": "en",
+      "value": "Feide MFA Login Events"
+    },
+    "subjectFields": [
+      "MFA login Events"
+    ],
+    "temporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporality": "ACCUMULATED",
+    "globalTemporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporalStatusDates": null,
+    "updatedAt": "1969-12-31T16:53:53",
+    "attributeVariables": [
+      {
+        "dataType": "Instant",
+        "label": "Startdato",
+        "name": "START",
+        "variableRole": "Start",
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Startdato/måletidspunktet for hendelsen"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      },
+      {
+        "dataType": "Instant",
+        "label": "Stoppdato",
+        "name": "STOP",
+        "variableRole": "Stop",
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Stoppdato/sluttdato for hendelsen"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "identifierVariables": [
+      {
+        "dataType": "String",
+        "label": "Organisasjonsidentifikator",
+        "name": "FEIDE_ORGID",
+        "variableRole": "Identifier",
+        "format": "String",
+        "keyType": {
+          "description": {
+            "languageCode": "en",
+            "value": "Feide Organization ID"
+          },
+          "label": "Feide_Org",
+          "name": "FEIDE_ORG_ID"
+        },
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Identifikator for Feide Organisasjon i Feide API"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "measureVariable": {
+      "dataType": "String",
+      "label": "Akkumulerte Feide-flerfaktoroperasjoner i en gitt Feide organisasjon",
+      "name": "FEIDESTATS_MFAS_FORG_ACCUM",
+      "variableRole": "Measure",
+      "representedVariables": [
+        {
+          "description": {
+            "languageCode": "nb",
+            "value": "Variabelen viser en telling av akkumulerte Feide-flerfaktoroperasjoner i en gitt Feide organisasjon i løpet av en gitt tidsperiode"
+          },
+          "validPeriod": {
+            "start": "2023-02-07T21:14:08.998000",
+            "stop": null
+          },
+          "valueDomain": {
+            "uriDefinition": null,
+            "description": "N/A",
+            "unitOfMeasure": "N/A"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "FEIDESTATS_MFAS_METHOD_ACCUM",
+    "datastore_id": "feideStats",
+    "populationDescription": {
+      "languageCode": "en",
+      "value": "Feide MFA Login Events"
+    },
+    "subjectFields": [
+      "MFA login events"
+    ],
+    "temporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporality": "ACCUMULATED",
+    "globalTemporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporalStatusDates": null,
+    "updatedAt": "1969-12-31T16:53:53",
+    "attributeVariables": [
+      {
+        "dataType": "Instant",
+        "label": "Startdato",
+        "name": "START",
+        "variableRole": "Start",
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Startdato/måletidspunktet for hendelsen"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      },
+      {
+        "dataType": "Instant",
+        "label": "Stoppdato",
+        "name": "STOP",
+        "variableRole": "Stop",
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Stoppdato/sluttdato for hendelsen"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "identifierVariables": [
+      {
+        "dataType": "String",
+        "label": "Flerfaktorautentiseringsmetode identifikator",
+        "name": "MFA_METHOD",
+        "variableRole": "Identifier",
+        "format": "String",
+        "keyType": {
+          "description": {
+            "languageCode": "en",
+            "value": "MFA Method ID"
+          },
+          "label": "MFA_Method",
+          "name": "MFA_METHOD_ID"
+        },
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Identifikator for Flerfaktorautentiseringsmetode i Feide"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "codeList": [
+                {
+                  "categoryTitle": [
+                    {
+                      "languageCode": "en",
+                      "value": "Google Authentication"
+                    }
+                  ],
+                  "code": "ga",
+                  "validPeriod": {
+                    "start": "2023-02-07T21:14:08.998000",
+                    "stop": null
+                  }
+                },
+                {
+                  "categoryTitle": [
+                    {
+                      "languageCode": "en",
+                      "value": "SMS Authentication"
+                    }
+                  ],
+                  "code": "sms",
+                  "validPeriod": {
+                    "start": "2023-02-07T21:14:08.998000",
+                    "stop": null
+                  }
+                },
+                {
+                  "categoryTitle": [
+                    {
+                      "languageCode": "en",
+                      "value": "IDPorten Authentication"
+                    }
+                  ],
+                  "code": "idporten",
+                  "validPeriod": {
+                    "start": "2023-02-07T21:14:08.998000",
+                    "stop": null
+                  }
+                },
+                {
+                  "categoryTitle": [
+                    {
+                      "languageCode": "en",
+                      "value": "AzureAD Authentication"
+                    }
+                  ],
+                  "code": "azuread",
+                  "validPeriod": {
+                    "start": "2023-02-07T21:14:08.998000",
+                    "stop": null
+                  }
+                }
+              ],
+              "missingValues": [],
+              "add": [],
+              "remove": []
+            }
+          }
+        ]
+      }
+    ],
+    "measureVariable": {
+      "dataType": "String",
+      "label": "Akkumulerte Feide-flerfaktoroperasjoner for en gitt autentiseringsmetode",
+      "name": "FEIDESTATS_MFAS_METHOD_ACCUM",
+      "variableRole": "Measure",
+      "representedVariables": [
+        {
+          "description": {
+            "languageCode": "nb",
+            "value": "Variabelen viser en telling av akkumulerte Feide-flerfaktoroperasjoner for en gitt autentiseringsmetode i løpet av en gitt tidsperiode"
+          },
+          "validPeriod": {
+            "start": "2023-02-07T21:14:08.998000",
+            "stop": null
+          },
+          "valueDomain": {
+            "uriDefinition": null,
+            "codeList": [
+              {
+                "categoryTitle": [
+                  {
+                    "languageCode": "en",
+                    "value": "Google Authentication"
+                  }
+                ],
+                "code": "ga",
+                "validPeriod": {
+                  "start": "2023-02-07T21:14:08.998000",
+                  "stop": null
+                }
+              },
+              {
+                "categoryTitle": [
+                  {
+                    "languageCode": "en",
+                    "value": "SMS Authentication"
+                  }
+                ],
+                "code": "sms",
+                "validPeriod": {
+                  "start": "2023-02-07T21:14:08.998000",
+                  "stop": null
+                }
+              },
+              {
+                "categoryTitle": [
+                  {
+                    "languageCode": "en",
+                    "value": "IDPorten Authentication"
+                  }
+                ],
+                "code": "idporten",
+                "validPeriod": {
+                  "start": "2023-02-07T21:14:08.998000",
+                  "stop": null
+                }
+              },
+              {
+                "categoryTitle": [
+                  {
+                    "languageCode": "en",
+                    "value": "AzureAD Authentication"
+                  }
+                ],
+                "code": "azuread",
+                "validPeriod": {
+                  "start": "2023-02-07T21:14:08.998000",
+                  "stop": null
+                }
+              }
+            ],
+            "missingValues": [],
+            "add": [],
+            "remove": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "FEIDESTATS_MFAS_FORG_METHOD_ACCUM",
+    "datastore_id": "feideStats",
+    "populationDescription": {
+      "languageCode": "en",
+      "value": "Feide MFA Login Events"
+    },
+    "subjectFields": [
+      "MFA Login Events"
+    ],
+    "temporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporality": "ACCUMULATED",
+    "globalTemporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporalStatusDates": null,
+    "updatedAt": "1969-12-31T16:53:53",
+    "attributeVariables": [
+      {
+        "dataType": "Instant",
+        "label": "Startdato",
+        "name": "START",
+        "variableRole": "Start",
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Startdato/måletidspunktet for hendelsen"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      },
+      {
+        "dataType": "Instant",
+        "label": "Stoppdato",
+        "name": "STOP",
+        "variableRole": "Stop",
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Stoppdato/sluttdato for hendelsen"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "identifierVariables": [
+      {
+        "dataType": "String",
+        "label": "Organisasjonsidentifikator",
+        "name": "FEIDE_ORGID",
+        "variableRole": "Identifier",
+        "format": "String",
+        "keyType": {
+          "description": {
+            "languageCode": "en",
+            "value": "Feide Organization ID"
+          },
+          "label": "Feide_Org",
+          "name": "FEIDE_ORG_ID"
+        },
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Identifikator for Feide Organisasjon i Feide API"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      },
+      {
+        "dataType": "String",
+        "label": "Flerfaktorautentiseringsmetode identifikator",
+        "name": "MFA_METHOD",
+        "variableRole": "Identifier",
+        "format": "String",
+        "keyType": {
+          "description": {
+            "languageCode": "en",
+            "value": "MFA Method ID"
+          },
+          "label": "MFA_Method",
+          "name": "MFA_METHOD_ID"
+        },
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Identifikator for Flerfaktorautentiseringsmetode i Feide"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "codeList": [
+                {
+                  "categoryTitle": [
+                    {
+                      "languageCode": "en",
+                      "value": "Google Authentication"
+                    }
+                  ],
+                  "code": "ga",
+                  "validPeriod": {
+                    "start": "2023-02-07T21:14:08.998000",
+                    "stop": null
+                  }
+                },
+                {
+                  "categoryTitle": [
+                    {
+                      "languageCode": "en",
+                      "value": "SMS Authentication"
+                    }
+                  ],
+                  "code": "sms",
+                  "validPeriod": {
+                    "start": "2023-02-07T21:14:08.998000",
+                    "stop": null
+                  }
+                },
+                {
+                  "categoryTitle": [
+                    {
+                      "languageCode": "en",
+                      "value": "IDPorten Authentication"
+                    }
+                  ],
+                  "code": "idporten",
+                  "validPeriod": {
+                    "start": "2023-02-07T21:14:08.998000",
+                    "stop": null
+                  }
+                },
+                {
+                  "categoryTitle": [
+                    {
+                      "languageCode": "en",
+                      "value": "AzureAD Authentication"
+                    }
+                  ],
+                  "code": "azuread",
+                  "validPeriod": {
+                    "start": "2023-02-07T21:14:08.998000",
+                    "stop": null
+                  }
+                }
+              ],
+              "missingValues": [],
+              "add": [],
+              "remove": []
+            }
+          }
+        ]
+      }
+    ],
+    "measureVariable": {
+      "dataType": "String",
+      "label": "Akkumulerte Feide-pålogginger i en gitt Feide organisasjon for en gitt autentiseringsmetode",
+      "name": "FEIDESTATS_MFAS_FORG_METHOD_ACCUM",
+      "variableRole": "Measure",
+      "representedVariables": [
+        {
+          "description": {
+            "languageCode": "nb",
+            "value": "Variabelen viser en telling av akkumulerte Feide-pålogginger fra en gitt Feide organisasjon for en gitt autentiseringsmetode i løpet av en gitt tidsperiode"
+          },
+          "validPeriod": {
+            "start": "2023-02-07T21:14:08.998000",
+            "stop": null
+          },
+          "valueDomain": {
+            "uriDefinition": null,
+            "description": "N/A",
+            "unitOfMeasure": "N/A"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "FEIDE_ORGANIZATION_ID",
+    "datastore_id": "feideAPI",
+    "populationDescription": {
+      "languageCode": "en",
+      "value": "Feide Organizations"
+    },
+    "subjectFields": [
+      "Organization"
+    ],
+    "temporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporality": "FIXED",
+    "globalTemporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporalStatusDates": null,
+    "updatedAt": "1969-12-31T16:53:53",
+    "attributeVariables": null,
+    "identifierVariables": [
+      {
+        "dataType": "String",
+        "label": "Organisasjonsidentifikator",
+        "name": "FEIDE_ORGID",
+        "variableRole": "Identifier",
+        "format": "String",
+        "keyType": {
+          "description": {
+            "languageCode": "en",
+            "value": "Feide Organization ID"
+          },
+          "label": "Feide_Org",
+          "name": "FEIDE_ORG_ID"
+        },
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Identifikator for Feide Organisasjon i Feide API"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "measureVariable": {
+      "dataType": "Long",
+      "label": "Alle Feide Organisasjoner",
+      "name": "FEIDE_ORGANIZATION_ID",
+      "variableRole": "Measure",
+      "representedVariables": [
+        {
+          "description": {
+            "languageCode": "nb",
+            "value": "Variabelen viser alle tilgjengelig organisasjoner i Feide"
+          },
+          "validPeriod": {
+            "start": "2023-02-07T21:14:08.998000",
+            "stop": null
+          },
+          "valueDomain": {
+            "uriDefinition": null,
+            "codeList": [
+              {
+                "categoryTitle": [
+                  {
+                    "languageCode": "en",
+                    "value": "Feide Organization ID"
+                  }
+                ],
+                "code": "1",
+                "validPeriod": {
+                  "start": "2023-02-07T21:14:08.998000",
+                  "stop": null
+                }
+              }
+            ],
+            "missingValues": [],
+            "add": [],
+            "remove": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "FEIDE_ORGANIZATION_NAME",
+    "datastore_id": "feideAPI",
+    "populationDescription": {
+      "languageCode": "en",
+      "value": "Feide Organizations"
+    },
+    "subjectFields": [
+      "Organization"
+    ],
+    "temporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporality": "FIXED",
+    "globalTemporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporalStatusDates": null,
+    "updatedAt": "1969-12-31T16:53:53",
+    "attributeVariables": null,
+    "identifierVariables": [
+      {
+        "dataType": "String",
+        "label": "Organisasjonsidentifikator",
+        "name": "FEIDE_ORGID",
+        "variableRole": "Identifier",
+        "format": "String",
+        "keyType": {
+          "description": {
+            "languageCode": "en",
+            "value": "Feide Organization ID"
+          },
+          "label": "Feide_Org",
+          "name": "FEIDE_ORG_ID"
+        },
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Identifikator for Feide Organisasjon i Feide API"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "measureVariable": {
+      "dataType": "String",
+      "label": "Alle Feide Organisasjonersnavner",
+      "name": "FEIDE_ORGANIZATION_NAME",
+      "variableRole": "Measure",
+      "representedVariables": [
+        {
+          "description": {
+            "languageCode": "nb",
+            "value": "Variabelen viser alle tilgjengelig organisasjonersnavner i Feide"
+          },
+          "validPeriod": {
+            "start": "2023-02-07T21:14:08.998000",
+            "stop": null
+          },
+          "valueDomain": {
+            "uriDefinition": null,
+            "description": "N/A",
+            "unitOfMeasure": "N/A"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "FEIDE_ORGANIZATION_TYPE",
+    "datastore_id": "feideAPI",
+    "populationDescription": {
+      "languageCode": "en",
+      "value": "Feide Organizations"
+    },
+    "subjectFields": [
+      "Organization"
+    ],
+    "temporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporality": "FIXED",
+    "globalTemporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporalStatusDates": null,
+    "updatedAt": "1969-12-31T16:53:53",
+    "attributeVariables": null,
+    "identifierVariables": [
+      {
+        "dataType": "String",
+        "label": "Organisasjonsidentifikator",
+        "name": "FEIDE_ORGID",
+        "variableRole": "Identifier",
+        "format": "String",
+        "keyType": {
+          "description": {
+            "languageCode": "en",
+            "value": "Feide Organization ID"
+          },
+          "label": "Feide_Org",
+          "name": "FEIDE_ORG_ID"
+        },
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Identifikator for Feide Organisasjon i Feide API"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "measureVariable": {
+      "dataType": "String",
+      "label": "Alle Feide Organisasjonstyper",
+      "name": "FEIDE_ORGANIZATION_TYPE",
+      "variableRole": "Measure",
+      "representedVariables": [
+        {
+          "description": {
+            "languageCode": "nb",
+            "value": "Variabelen viser alle tilgjengelig organisasjonerstyper i Feide"
+          },
+          "validPeriod": {
+            "start": "2023-02-07T21:14:08.998000",
+            "stop": null
+          },
+          "valueDomain": {
+            "uriDefinition": null,
+            "codeList": [
+              {
+                "categoryTitle": [
+                  {
+                    "languageCode": "en",
+                    "value": "A university or university college"
+                  }
+                ],
+                "code": "higher_education",
+                "validPeriod": {
+                  "start": "2023-02-07T21:14:08.998000",
+                  "stop": null
+                }
+              },
+              {
+                "categoryTitle": [
+                  {
+                    "languageCode": "en",
+                    "value": "A home organization, which is an organization whose users can log into Feide services"
+                  }
+                ],
+                "code": "home_organization",
+                "validPeriod": {
+                  "start": "2023-02-07T21:14:08.998000",
+                  "stop": null
+                }
+              },
+              {
+                "categoryTitle": [
+                  {
+                    "languageCode": "en",
+                    "value": "A organization providing primary and lower secondary schools. Typically municipalities, but also includes private schools"
+                  }
+                ],
+                "code": "primary_and_lower_secondary",
+                "validPeriod": {
+                  "start": "2023-02-07T21:14:08.998000",
+                  "stop": null
+                }
+              },
+              {
+                "categoryTitle": [
+                  {
+                    "languageCode": "en",
+                    "value": "A organization providing upper secondary schools. Mainly county councils, but also includes private schools"
+                  }
+                ],
+                "code": "upper_secondary",
+                "validPeriod": {
+                  "start": "2023-02-07T21:14:08.998000",
+                  "stop": null
+                }
+              },
+              {
+                "categoryTitle": [
+                  {
+                    "languageCode": "en",
+                    "value": "An organization providing one or more services"
+                  }
+                ],
+                "code": "service_provider",
+                "validPeriod": {
+                  "start": "2023-02-07T21:14:08.998000",
+                  "stop": null
+                }
+              }
+            ],
+            "missingValues": [],
+            "add": [],
+            "remove": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "FEIDE_SERVICE_ID",
+    "datastore_id": "feideAPI",
+    "populationDescription": {
+      "languageCode": "en",
+      "value": "Feide Services"
+    },
+    "subjectFields": [
+      "Service"
+    ],
+    "temporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporality": "EVENT",
+    "globalTemporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporalStatusDates": null,
+    "updatedAt": "1969-12-31T16:53:53",
+    "attributeVariables": null,
+    "identifierVariables": [
+      {
+        "dataType": "String",
+        "label": "Tjenestersidentifikator",
+        "name": "FEIDE_SPID",
+        "variableRole": "Identifier",
+        "format": "String",
+        "keyType": {
+          "description": {
+            "languageCode": "en",
+            "value": "Feide Service ID"
+          },
+          "label": "Feide_Service",
+          "name": "FEIDE_SPID"
+        },
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Identifikator for Tjenester som organisasjonen abboner på i Feide"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "measureVariable": {
+      "dataType": "Long",
+      "label": "Alle Feide Tjenester",
+      "name": "FEIDE_SERVICE_ID",
+      "variableRole": "Measure",
+      "representedVariables": [
+        {
+          "description": {
+            "languageCode": "nb",
+            "value": "Variabelen viser alle tilgjengelig tjenester i Feide"
+          },
+          "validPeriod": {
+            "start": "2023-02-07T21:14:08.998000",
+            "stop": null
+          },
+          "valueDomain": {
+            "uriDefinition": null,
+            "codeList": [
+              {
+                "categoryTitle": [
+                  {
+                    "languageCode": "en",
+                    "value": "Feide Service ID"
+                  }
+                ],
+                "code": "1",
+                "validPeriod": {
+                  "start": "2023-02-07T21:14:08.998000",
+                  "stop": null
+                }
+              }
+            ],
+            "missingValues": [],
+            "add": [],
+            "remove": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "FEIDE_SERVICE_NAME",
+    "datastore_id": "feideAPI",
+    "populationDescription": {
+      "languageCode": "en",
+      "value": "Feide Services"
+    },
+    "subjectFields": [
+      "Service"
+    ],
+    "temporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporality": "FIXED",
+    "globalTemporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporalStatusDates": null,
+    "updatedAt": "1969-12-31T16:53:53",
+    "attributeVariables": null,
+    "identifierVariables": [
+      {
+        "dataType": "String",
+        "label": "Tjenestersidentifikator",
+        "name": "FEIDE_SPID",
+        "variableRole": "Identifier",
+        "format": "String",
+        "keyType": {
+          "description": {
+            "languageCode": "en",
+            "value": "Feide Service ID"
+          },
+          "label": "Feide_Service",
+          "name": "FEIDE_SPID"
+        },
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Identifikator for Tjenester som organisasjonen abboner på i Feide"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "measureVariable": {
+      "dataType": "String",
+      "label": "Alle Feide Tjenestersnavner",
+      "name": "FEIDE_SERVICE_NAME",
+      "variableRole": "Measure",
+      "representedVariables": [
+        {
+          "description": {
+            "languageCode": "nb",
+            "value": "Variabelen viser alle tilgjengelig tjenestersnavner i Feide"
+          },
+          "validPeriod": {
+            "start": "2023-02-07T21:14:08.998000",
+            "stop": null
+          },
+          "valueDomain": {
+            "uriDefinition": null,
+            "description": "N/A",
+            "unitOfMeasure": "N/A"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "UDIR_SCHOOL_NAME",
+    "datastore_id": "feideAPI",
+    "populationDescription": {
+      "languageCode": "en",
+      "value": "Feide Organizations"
+    },
+    "subjectFields": [
+      "Organization"
+    ],
+    "temporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporality": "FIXED",
+    "globalTemporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporalStatusDates": null,
+    "updatedAt": "1969-12-31T16:53:53",
+    "attributeVariables": null,
+    "identifierVariables": [
+      {
+        "dataType": "String",
+        "label": "Organisasjonsidentifikator",
+        "name": "ORGID",
+        "variableRole": "Identifier",
+        "format": "String",
+        "keyType": {
+          "description": {
+            "languageCode": "en",
+            "value": "Organization ID"
+          },
+          "label": "Organization",
+          "name": "ORGANIZATION"
+        },
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Identifikator for Organisasjon i Brønnøysundregistrene (BRREG)"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "measureVariable": {
+      "dataType": "String",
+      "label": "Alle Skolersnavner i Norge",
+      "name": "UDIR_SCHOOL_NAME",
+      "variableRole": "Measure",
+      "representedVariables": [
+        {
+          "description": {
+            "languageCode": "nb",
+            "value": "Variabelen viser alle tilgjengelig Skolersnavner i Norge"
+          },
+          "validPeriod": {
+            "start": "2023-02-07T21:14:08.998000",
+            "stop": null
+          },
+          "valueDomain": {
+            "uriDefinition": null,
+            "description": "N/A",
+            "unitOfMeasure": "N/A"
+          }
+        }
+      ]
+    }
+  }
+]
