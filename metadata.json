@@ -132,7 +132,8 @@
           }
         }
       ]
-    }
+    },
+    "concepts": ["Feide", "Tjenesteleverandør", "Vertsorganisasjon"]
   },
   {
     "name": "FEIDESTATS_LOGINS_SCHOOL_ACCUM",
@@ -267,7 +268,8 @@
           }
         }
       ]
-    }
+    },
+    "concepts": ["Feide"]
   },
   {
     "name": "FEIDESTATS_LOGINS_SP_ACCUM",
@@ -402,7 +404,8 @@
           }
         }
       ]
-    }
+    },
+    "concepts": ["Feide", "Tjenesteleverandør", "Vertsorganisasjon"]
   },
   {
     "name": "FEIDESTATS_LOGINS_FORG_SP_ACCUM",
@@ -569,7 +572,8 @@
           }
         }
       ]
-    }
+    },
+    "concepts": ["Feide", "Tjenesteleverandør", "Vertsorganisasjon"]
   },
   {
     "name": "FEIDESTATS_LOGINS_SCHOOL_SP_ACCUM",
@@ -736,7 +740,8 @@
           }
         }
       ]
-    }
+    },
+    "concepts": ["Feide", "Tjenesteleverandør", "Vertsorganisasjon"]
   },
   {
     "name": "FEIDESTATS_MFAS_FORG_ACCUM",
@@ -871,7 +876,8 @@
           }
         }
       ]
-    }
+    },
+    "concepts": ["Feide", "Tjenesteleverandør", "Vertsorganisasjon", "Flerfaktor-pålogging"]
   },
   {
     "name": "FEIDESTATS_MFAS_METHOD_ACCUM",
@@ -1116,7 +1122,8 @@
           }
         }
       ]
-    }
+    },
+    "concepts": ["Feide", "Tjenesteleverandør", "Vertsorganisasjon", "Flerfaktor-pålogging"]
   },
   {
     "name": "FEIDESTATS_MFAS_FORG_METHOD_ACCUM",
@@ -1330,7 +1337,8 @@
           }
         }
       ]
-    }
+    },
+    "concepts": ["Feide", "Tjenesteleverandør", "Vertsorganisasjon", "Flerfaktor-pålogging"]
   },{
     "name": "FEIDE_SP_ORG_ID",
     "datastore_id": "Sikt",
@@ -1429,7 +1437,8 @@
           }
         }
       ]
-    }
+    },
+    "concepts": ["Feide", "Tjenesteleverandør", "Vertsorganisasjon"]
   },
   {
     "name": "FEIDE_BRREG_ORG_ID",
@@ -1512,7 +1521,8 @@
           }
         }
       ]
-    }
+    },
+    "concepts": ["Feide", "Tjenesteleverandør", "Vertsorganisasjon"]
   },
   {
     "name": "NSR_STUDENT_NUMBER",
@@ -2002,7 +2012,8 @@
           }
         }
       ]
-    }
+    },
+    "concepts": ["Feide", "Tjenesteleverandør", "Vertsorganisasjon"]
   },
   {
     "name": "BRREG_ENHETSNAVN",
