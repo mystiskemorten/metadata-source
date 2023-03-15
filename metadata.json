@@ -46787,5 +46787,105 @@
     },
     "updatedAt": 1647972244,
     "datastore_id": "microdata"
+  },
+{
+    "name": "PERSONID_1",
+    "datastore_id": "microdata",
+    "populationDescription": {
+      "languageCode": "en",
+      "value": "Feide Organization BRREG Organization number"
+    },
+    "subjectFields": [
+      "Organisasjon"
+    ],
+    "temporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporality": "FIXED",
+    "globalTemporalCoverage": {
+      "start": "2023-02-07T21:14:08.998000",
+      "stop": null
+    },
+    "temporalStatusDates": null,
+    "updatedAt": "2022-12-27T15:58:04",
+    "attributeVariables": null,
+    "identifierVariables": [
+      {
+        "dataType": "String",
+        "label": "Personidentifikator",
+        "name": "PERSONID_1",
+        "variableRole": "Identifier",
+        "format": "String",
+        "keyType": {
+          "description": {
+            "languageCode": "en",
+            "value": "Organization ID"
+          },
+          "label": "Person",
+          "name": "PERSON"
+        },
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Identifikator for Organisasjon i Brønnøysundregistrene (BRREG)"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
+      }
+    ],
+    "measureVariable": {
+      "dataType": "Long",
+      "label": "Personidentifikator",
+      "name": "PERSONID_1",
+      "variableRole": "Measure",
+      "keyType": {
+        "label": "Person",
+        "name": "PERSON"
+      },
+      "representedVariables": [
+        {
+          "description": {
+            "languageCode": "nb",
+            "value": "En organisasjons identifikator i Enhetsregisteret, også kalt Organisasjonsnummer"
+          },
+          "validPeriod": {
+            "start": "2023-02-07T21:14:08.998000",
+            "stop": null
+          },
+          "valueDomain": {
+            "uriDefinition": null,
+            "codeList": [
+              {
+                "categoryTitle": [
+                  {
+                    "languageCode": "en",
+                    "value": "Income Organization"
+                  }
+                ],
+                "code": "1",
+                "validPeriod": {
+                  "start": "2023-02-07T21:14:08.998000",
+                  "stop": null
+                }
+              }
+            ],
+            "missingValues": [],
+            "add": [],
+            "remove": []
+          }
+        }
+      ]
+    }
   }
 ]
