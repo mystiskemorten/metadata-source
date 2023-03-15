@@ -46175,5 +46175,617 @@
     },
     "updatedAt": 1647972244,
     "datastore_id": "microdata"
+  },
+  {
+    "attributeVariables": [
+      {
+        "dataType": "Instant",
+        "label": "Stoppdato",
+        "name": "STOP",
+        "notPseudonym": true,
+        "representedVariables": [
+          {
+            "description": "Stoppdato/sluttdato for hendelsen",
+            "validPeriod": {
+              "start": -25567,
+              "stop": 18993
+            },
+            "valueDomain": {
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ],
+        "variableRole": "Stop"
+      },
+      {
+        "dataType": "Instant",
+        "label": "Startdato",
+        "name": "START",
+        "notPseudonym": true,
+        "representedVariables": [
+          {
+            "description": "Startdato/måletidspunktet for hendelsen",
+            "validPeriod": {
+              "start": -25567,
+              "stop": 18993
+            },
+            "valueDomain": {
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ],
+        "variableRole": "Start"
+      }
+    ],
+    "identifierVariables": [
+      {
+        "dataType": "Long",
+        "format": "RandomUInt48",
+        "keyType": {
+          "description": "Statistisk enhet er person (individ, enkeltmenenske)",
+          "label": "Person",
+          "name": "PERSON"
+        },
+        "label": "Personidentifikator",
+        "name": "PERSONID_1",
+        "notPseudonym": false,
+        "representedVariables": [
+          {
+            "description": "Identifikator for person i RAIRD",
+            "validPeriod": {
+              "start": -25567,
+              "stop": 18993
+            },
+            "valueDomain": {
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ],
+        "variableRole": "Identifier"
+      }
+    ],
+    "languageCode": "no",
+    "measureVariable": {
+      "dataType": "Long",
+      "format": "RandomUInt48",
+      "keyType": {
+        "description": "Statistisk enhet er person (individ, enkeltmenenske)",
+        "label": "Person",
+        "name": "PERSON"
+      },
+      "label": "Fødselsnummer mor",
+      "name": "BEFOLKNING_MOR_FNR",
+      "notPseudonym": false,
+      "representedVariables": [
+        {
+          "description": "Variabelen er konstruert fra mors fødselsnummer. Ment for bruk som koblingsnøkkel.",
+          "validPeriod": {
+            "start": -25567,
+            "stop": 18993
+          },
+          "valueDomain": {
+            "description": "N/A",
+            "unitOfMeasure": "N/A"
+          }
+        }
+      ],
+      "variableRole": "Measure"
+    },
+    "name": "BEFOLKNING_MOR_FNR",
+    "populationDescription": "Bosatte i Norge",
+    "sensitivityLevel": "PERSON_GENERAL",
+    "subjectFields": [
+      "Befolkning"
+    ],
+    "temporalCoverage": {
+      "start": -25567,
+      "stop": 18993
+    },
+    "temporality": "FIXED",
+    "globalTemporalCoverage": {
+      "start": -1096,
+      "stop": 19425
+    },
+    "updatedAt": 1647972244,
+    "datastore_id": "microdata"
+  },
+  {
+    "attributeVariables": [
+      {
+        "dataType": "Instant",
+        "label": "Stoppdato",
+        "name": "STOP",
+        "notPseudonym": true,
+        "representedVariables": [
+          {
+            "description": "Stoppdato/sluttdato for hendelsen",
+            "validPeriod": {
+              "start": 10591,
+              "stop": 18992
+            },
+            "valueDomain": {
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ],
+        "variableRole": "Stop"
+      },
+      {
+        "dataType": "Instant",
+        "label": "Startdato",
+        "name": "START",
+        "notPseudonym": true,
+        "representedVariables": [
+          {
+            "description": "Startdato/måletidspunktet for hendelsen",
+            "validPeriod": {
+              "start": 10591,
+              "stop": 18992
+            },
+            "valueDomain": {
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ],
+        "variableRole": "Start"
+      }
+    ],
+    "identifierVariables": [
+      {
+        "dataType": "Long",
+        "format": "RandomUInt48",
+        "keyType": {
+          "description": "Et kjøretøy er en innretning som er bestemt til å kjøre på bakken.",
+          "label": "Kjøretøy",
+          "name": "KJORETOY"
+        },
+        "label": "Kjøretøy ID",
+        "name": "KJORETOY_ID",
+        "notPseudonym": false,
+        "representedVariables": [
+          {
+            "description": "Konstruert ID for kombinasjonen av REGNR og FNR",
+            "validPeriod": {
+              "start": 10591,
+              "stop": 18992
+            },
+            "valueDomain": {
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ],
+        "variableRole": "Identifier"
+      }
+    ],
+    "languageCode": "no",
+    "measureVariable": {
+      "dataType": "Long",
+      "format": "RandomUInt48",
+      "keyType": {
+        "description": "Statistisk enhet er person (individ, enkeltmenenske)",
+        "label": "Person",
+        "name": "PERSON"
+      },
+      "label": "Kjøretøysid, person",
+      "name": "KJORETOY_KJORETOYID_FNR",
+      "notPseudonym": false,
+      "representedVariables": [
+        {
+          "description": "Variabelen omfatter kjøretøyets eier avgrenset til privatpersoner per 31.12. Variabelen er en nøkkel som gir deg mulighet til å koble bilens eierforhold og person. \n \n En person kan eie flere biler i samme periode.",
+          "validPeriod": {
+            "start": 10591,
+            "stop": 18992
+          },
+          "valueDomain": {
+            "description": "N/A",
+            "unitOfMeasure": "N/A"
+          }
+        }
+      ],
+      "variableRole": "Measure"
+    },
+    "name": "KJORETOY_KJORETOYID_FNR",
+    "populationDescription": "Variabelen omfatter kjøretøyets eier begrenset til privatpersoner per 31.12.",
+    "sensitivityLevel": "PERSON_GENERAL",
+    "subjectFields": [
+      "Motorvogn",
+      "Kjøretøy"
+    ],
+    "temporalCoverage": {
+      "start": 10591,
+      "stop": 18992
+    },
+    "temporalStatusDates": [
+      12783,
+      12417,
+      17896,
+      15705,
+      10591,
+      14609,
+      15339,
+      16800,
+      11322,
+      17531,
+      18627,
+      10956,
+      14974,
+      16435,
+      14244,
+      17166,
+      13148,
+      11687,
+      13513,
+      18992,
+      18261,
+      16070,
+      13878,
+      12052
+    ],
+    "temporality": "STATUS",
+    "globalTemporalCoverage": {
+      "start": -1096,
+      "stop": 19425
+    },
+    "updatedAt": 1653636700,
+    "datastore_id": "microdata"
+  },
+  {
+    "attributeVariables": [
+      {
+        "dataType": "Instant",
+        "label": "Stoppdato",
+        "name": "STOP",
+        "notPseudonym": true,
+        "representedVariables": [
+          {
+            "description": "Stoppdato/sluttdato for hendelsen",
+            "validPeriod": {
+              "start": -25567,
+              "stop": 18900
+            },
+            "valueDomain": {
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ],
+        "variableRole": "Stop"
+      },
+      {
+        "dataType": "Instant",
+        "label": "Startdato",
+        "name": "START",
+        "notPseudonym": true,
+        "representedVariables": [
+          {
+            "description": "Startdato/måletidspunktet for hendelsen",
+            "validPeriod": {
+              "start": -25567,
+              "stop": 18900
+            },
+            "valueDomain": {
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ],
+        "variableRole": "Start"
+      }
+    ],
+    "identifierVariables": [
+      {
+        "dataType": "Long",
+        "format": "RandomUInt48",
+        "keyType": {
+          "description": "Et kurs er en utdanningsaktivitet.",
+          "label": "Kurs",
+          "name": "KURS"
+        },
+        "label": "Kursidentifikator",
+        "name": "KURSID_1",
+        "notPseudonym": false,
+        "representedVariables": [
+          {
+            "description": "Identifikator for kurs i RAIRD",
+            "validPeriod": {
+              "start": -25567,
+              "stop": 18900
+            },
+            "valueDomain": {
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ],
+        "variableRole": "Identifier"
+      }
+    ],
+    "languageCode": "no",
+    "measureVariable": {
+      "dataType": "Long",
+      "format": "RandomUInt48",
+      "keyType": {
+        "description": "Statistisk enhet er person (individ, enkeltmenenske)",
+        "label": "Person",
+        "name": "PERSON"
+      },
+      "label": "Kurs, fødselsnummer person",
+      "name": "NUDB_KURS_FNR",
+      "notPseudonym": false,
+      "representedVariables": [
+        {
+          "description": "Kurs, fødselsnummeret til person (kursdeltager)",
+          "validPeriod": {
+            "start": -25567,
+            "stop": 18900
+          },
+          "valueDomain": {
+            "description": "N/A",
+            "unitOfMeasure": "N/A"
+          }
+        }
+      ],
+      "variableRole": "Measure"
+    },
+    "name": "NUDB_KURS_FNR",
+    "populationDescription": "Hovedsakelig bosatte i Norge (fnr), men noen ikke-bosatte kan inngå (dnr)",
+    "sensitivityLevel": "PERSON_GENERAL",
+    "subjectFields": [
+      "Utdanning"
+    ],
+    "temporalCoverage": {
+      "start": -25567,
+      "stop": 18900
+    },
+    "temporality": "FIXED",
+    "globalTemporalCoverage": {
+      "start": -1096,
+      "stop": 19425
+    },
+    "updatedAt": 1653636700,
+    "datastore_id": "microdata"
+  },
+  {
+    "attributeVariables": [
+      {
+        "dataType": "Instant",
+        "label": "Stoppdato",
+        "name": "STOP",
+        "notPseudonym": true,
+        "representedVariables": [
+          {
+            "description": "Stoppdato/sluttdato for hendelsen",
+            "validPeriod": {
+              "start": -25567,
+              "stop": 19112
+            },
+            "valueDomain": {
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ],
+        "variableRole": "Stop"
+      },
+      {
+        "dataType": "Instant",
+        "label": "Startdato",
+        "name": "START",
+        "notPseudonym": true,
+        "representedVariables": [
+          {
+            "description": "Startdato/måletidspunktet for hendelsen",
+            "validPeriod": {
+              "start": -25567,
+              "stop": 19112
+            },
+            "valueDomain": {
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ],
+        "variableRole": "Start"
+      }
+    ],
+    "identifierVariables": [
+      {
+        "dataType": "Long",
+        "format": "RandomUInt48",
+        "keyType": {
+          "description": "En jobb er betegnelse for en persons arbeidsforhold i en virksomhet. En person kan ha flere arbeidsforhold, også innenfor en periode.",
+          "label": "Jobb",
+          "name": "JOBB"
+        },
+        "label": "Jobbidentifikator",
+        "name": "JOBBID_1",
+        "notPseudonym": false,
+        "representedVariables": [
+          {
+            "description": "Identifikator for jobb",
+            "validPeriod": {
+              "start": -25567,
+              "stop": 19112
+            },
+            "valueDomain": {
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ],
+        "variableRole": "Identifier"
+      }
+    ],
+    "languageCode": "no",
+    "measureVariable": {
+      "dataType": "Long",
+      "format": "RandomUInt48",
+      "keyType": {
+        "description": "Statistisk enhet er person (individ, enkeltmenenske)",
+        "label": "Person",
+        "name": "PERSON"
+      },
+      "label": "Arbeidsforhold, person",
+      "name": "ARBEIDSFORHOLD_PERSON",
+      "notPseudonym": false,
+      "representedVariables": [
+        {
+          "description": "Variabelen er en nøkkel som gir deg muligheten å koble person og arbeidsforhold.\n \n En person kan ha flere arbeidsforhold i en periode, men ikke i samme virksomhet. Dersom en person har flere arbeidsforhold innenfor én virksomhet slås disse sammen.\n \n Eksempel på hvordan man bruker denne variabelen, se https://microdata.no/docs/koble-sammen-arbeidsforhold-og-personer/",
+          "validPeriod": {
+            "start": -25567,
+            "stop": 19112
+          },
+          "valueDomain": {
+            "description": "N/A",
+            "unitOfMeasure": "N/A"
+          }
+        }
+      ],
+      "variableRole": "Measure"
+    },
+    "name": "ARBEIDSFORHOLD_PERSON",
+    "populationDescription": "Variabelen omfatter alle arbeidsforhold meldt inn gjennom A-ordningen som SSB anser å være aktive i referanseperioden, uavhengig av alder og bosatt-status i Folkeregisteret. \n \n Arbeidsforhold innhentes også fra andre kilder (SKDs arbeidsforholds- og oppdragsregister (tidligere SFU) og vernepliktige). A-ordningen er hovedkilden til informasjon om arbeidsforhold.\n \n Observasjoner med verdiene 0 og uoppgitt (missing) er utelatt. \n \n A-ordningen er en samordnet digital innsamling av opplysninger om arbeidsforhold, inntekt og skattetrekk til Skatteetaten, NAV og SSB. Ordningen innebærer at SSB får opplysninger om lønn og ansatte direkte fra a-meldingen, som er den elektroniske meldingen som inneholder alle opplysningene som samles inn. Data foreligger per måned og alle måneder inneholder en fullstendig situasjonsbeskrivelse om arbeid og lønn samlet. SSB innhenter data fra A-ordningen for å fremstille statistikk om sysselsetting, lønn, ledighet og arbeidsmarkedstiltak.",
+    "sensitivityLevel": "PERSON_GENERAL",
+    "subjectFields": [
+      "Sykefravær",
+      "Sysselsetting",
+      "Arbeid og lønn",
+      "A-ordningen",
+      "Arbeidsmarked",
+      "Lønn"
+    ],
+    "temporalCoverage": {
+      "start": -25567,
+      "stop": 19112
+    },
+    "temporality": "FIXED",
+    "globalTemporalCoverage": {
+      "start": -1096,
+      "stop": 19425
+    },
+    "updatedAt": 1664456681,
+    "datastore_id": "microdata"
+  },
+  {
+    "attributeVariables": [
+      {
+        "dataType": "Instant",
+        "label": "Stoppdato",
+        "name": "STOP",
+        "notPseudonym": true,
+        "representedVariables": [
+          {
+            "description": "Stoppdato/sluttdato for hendelsen",
+            "validPeriod": {
+              "start": -25567,
+              "stop": 18993
+            },
+            "valueDomain": {
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ],
+        "variableRole": "Stop"
+      },
+      {
+        "dataType": "Instant",
+        "label": "Startdato",
+        "name": "START",
+        "notPseudonym": true,
+        "representedVariables": [
+          {
+            "description": "Startdato/måletidspunktet for hendelsen",
+            "validPeriod": {
+              "start": -25567,
+              "stop": 18993
+            },
+            "valueDomain": {
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ],
+        "variableRole": "Start"
+      }
+    ],
+    "identifierVariables": [
+      {
+        "dataType": "Long",
+        "format": "RandomUInt48",
+        "keyType": {
+          "description": "Statistisk enhet er person (individ, enkeltmenenske)",
+          "label": "Person",
+          "name": "PERSON"
+        },
+        "label": "Personidentifikator",
+        "name": "PERSONID_1",
+        "notPseudonym": false,
+        "representedVariables": [
+          {
+            "description": "Identifikator for person i RAIRD",
+            "validPeriod": {
+              "start": -25567,
+              "stop": 18993
+            },
+            "valueDomain": {
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ],
+        "variableRole": "Identifier"
+      }
+    ],
+    "languageCode": "no",
+    "measureVariable": {
+      "dataType": "Long",
+      "format": "RandomUInt48",
+      "keyType": {
+        "description": "Statistisk enhet er person (individ, enkeltmenenske)",
+        "label": "Person",
+        "name": "PERSON"
+      },
+      "label": "Fødselsnummer far",
+      "name": "BEFOLKNING_FAR_FNR",
+      "notPseudonym": false,
+      "representedVariables": [
+        {
+          "description": "Variabelen er konstruert fra fars fødselsnummer. Ment for bruk som koblingsnøkkel.",
+          "validPeriod": {
+            "start": -25567,
+            "stop": 18993
+          },
+          "valueDomain": {
+            "description": "N/A",
+            "unitOfMeasure": "N/A"
+          }
+        }
+      ],
+      "variableRole": "Measure"
+    },
+    "name": "BEFOLKNING_FAR_FNR",
+    "populationDescription": "Bosatte i Norge",
+    "sensitivityLevel": "PERSON_GENERAL",
+    "subjectFields": [
+      "Befolkning"
+    ],
+    "temporalCoverage": {
+      "start": -25567,
+      "stop": 18993
+    },
+    "temporality": "FIXED",
+    "globalTemporalCoverage": {
+      "start": -1096,
+      "stop": 19425
+    },
+    "updatedAt": 1647972244,
+    "datastore_id": "microdata"
   }
 ]
