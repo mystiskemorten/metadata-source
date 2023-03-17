@@ -1,7 +1,7 @@
 [
   {
     "name": "FEIDESTATS_LOGINS_FORG_ACCUM",
-    "datastore_id": "Sikt",
+    "datastore_id": "feideStats",
     "populationDescription": {
       "languageCode": "en",
       "value": "Feide Innlogging Hendelse"
