@@ -1514,7 +1514,24 @@
           },
           "label": "Organisasjoner i Feide",
           "name": "FEIDE_ORG_ID"
-        }
+        },
+        "representedVariables": [
+          {
+            "description": {
+              "languageCode": "nb",
+              "value": "Identifikator for Feide Organisasjon i Feide API"
+            },
+            "validPeriod": {
+              "start": "2023-02-07T21:14:08.998000",
+              "stop": null
+            },
+            "valueDomain": {
+              "uriDefinition": null,
+              "description": "N/A",
+              "unitOfMeasure": "N/A"
+            }
+          }
+        ]
       }
     ],
     "measureVariable": {
