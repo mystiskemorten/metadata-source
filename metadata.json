@@ -107,14 +107,6 @@
       "label": "Antall pålogginger med Feide i en Vertsorganisasjon",
       "name": "FEIDESTATS_LOGINS_FORG_ACCUM",
       "variableRole": "Measure",
-      "keyType": {
-        "description": {
-          "languageCode": "en",
-          "value": "Feide Organization ID"
-        },
-        "label": "Organisasjoner i Feide",
-        "name": "FEIDE_ORG_ID"
-      },
       "representedVariables": [
         {
           "description": {
@@ -247,14 +239,6 @@
       "label": "Antall Feide-pålogginger i en gitt grunnskole",
       "name": "FEIDESTATS_LOGINS_SCHOOL_ACCUM",
       "variableRole": "Measure",
-      "keyType": {
-        "description": {
-          "languageCode": "en",
-          "value": "Feide Organization ID"
-        },
-        "label": "Organisasjoner i Feide",
-        "name": "FEIDE_ORG_ID"
-      },
       "representedVariables": [
         {
           "description": {
@@ -385,14 +369,6 @@
       "label": "Antall Feide-pålogginger til en gitt tjenesteleverandør",
       "name": "FEIDESTATS_LOGINS_SP_ACCUM",
       "variableRole": "Measure",
-      "keyType": {
-        "description": {
-          "languageCode": "en",
-          "value": "Feide Service ID"
-        },
-        "label": "Tjenester i Feide",
-        "name": "FEIDE_SPID"
-      },
       "representedVariables": [
         {
           "description": {
@@ -557,14 +533,6 @@
       "label": "Antall pålogginger hos gitt tjenesteleverandør av gitt vertsorganisasjon",
       "name": "FEIDESTATS_LOGINS_FORG_SP_ACCUM",
       "variableRole": "Measure",
-      "keyType": {
-        "description": {
-          "languageCode": "en",
-          "value": "Feide Service ID"
-        },
-        "label": "Tjenester i Feide",
-        "name": "FEIDE_SPID"
-      },
       "representedVariables": [
         {
           "description": {
@@ -729,14 +697,6 @@
       "label": "Antall Feide-pålogginger per tjeneste og hos gitt grunnskole",
       "name": "FEIDESTATS_LOGINS_SCHOOL_SP_ACCUM",
       "variableRole": "Measure",
-      "keyType": {
-        "description": {
-          "languageCode": "en",
-          "value": "Feide Service ID"
-        },
-        "label": "Tjenester i Feide",
-        "name": "FEIDE_SPID"
-      },
       "representedVariables": [
         {
           "description": {
@@ -869,14 +829,6 @@
       "label": "Antall flerfaktor Feide-pålogginger i en gitt Feide-organisasjon",
       "name": "FEIDESTATS_MFAS_FORG_ACCUM",
       "variableRole": "Measure",
-      "keyType": {
-        "description": {
-          "languageCode": "en",
-          "value": "Feide Organization ID"
-        },
-        "label": "Organisasjoner i Feide",
-        "name": "FEIDE_ORG_ID"
-      },
       "representedVariables": [
         {
           "description": {
@@ -1065,14 +1017,6 @@
       "label": "Antall flerfaktor Feide-pålogginger med en gitt autentiseringsmetode",
       "name": "FEIDESTATS_MFAS_METHOD_ACCUM",
       "variableRole": "Measure",
-      "keyType": {
-        "description": {
-          "languageCode": "en",
-          "value": "MFA Method ID"
-        },
-        "label": "MFA_Method",
-        "name": "MFA_METHOD_ID"
-      },
       "representedVariables": [
         {
           "description": {
