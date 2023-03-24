@@ -2081,7 +2081,7 @@
       "variableRole": "Measure",
       "keyType": {
         "label": "Kommune",
-        "name": "NSR_KOMMUNE"
+        "name": "KOMMUNE"
       },
       "representedVariables": [
         {
@@ -2143,8 +2143,8 @@
     "identifierVariables": [
       {
         "dataType": "String",
-        "label": "Kommune",
-        "name": "NSR_KOMMUNE",
+        "label": "Kommuneidentifikator",
+        "name": "KOMMUNE_ID",
         "variableRole": "Identifier",
         "format": "String",
         "keyType": {
@@ -2153,7 +2153,7 @@
             "value": "Municipality"
           },
           "label": "Kommune",
-          "name": "NSR_KOMMUNE"
+          "name": "KOMMUNE"
         },
         "representedVariables": [
           {
@@ -2239,8 +2239,8 @@
     "identifierVariables": [
       {
         "dataType": "String",
-        "label": "Kommune",
-        "name": "NSR_KOMMUNE",
+        "label": "Kommuneidentifikator",
+        "name": "KOMMUNE_ID",
         "variableRole": "Identifier",
         "format": "String",
         "keyType": {
@@ -2249,7 +2249,7 @@
             "value": "Municipality"
           },
           "label": "Kommune",
-          "name": "NSR_KOMMUNE"
+          "name": "KOMMUNE"
         },
         "representedVariables": [
           {
