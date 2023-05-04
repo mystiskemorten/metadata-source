@@ -124,12 +124,7 @@
           }
         }
       ]
-    },
-    "concepts": [
-      "Feide",
-      "Tjenesteleverandør",
-      "Vertsorganisasjon"
-    ]
+    }
   },
   {
     "name": "FEIDESTATS_LOGINS_SCHOOL_ACCUM",
@@ -139,7 +134,10 @@
       "value": "Feide Innlogging Hendelse"
     },
     "subjectFields": [
-      "Innlogging Hendelse"
+      "Innlogging Hendelse",
+      "Feide",
+      "Tjenesteleverandør",
+      "Vertsorganisasjon"
     ],
     "temporalCoverage": {
       "start": "2023-02-07T21:14:08.998000",
@@ -256,10 +254,7 @@
           }
         }
       ]
-    },
-    "concepts": [
-      "Feide"
-    ]
+    }
   },
   {
     "name": "FEIDESTATS_LOGINS_SP_ACCUM",
@@ -269,7 +264,8 @@
       "value": "Feide Innlogging Hendelse"
     },
     "subjectFields": [
-      "Innlogging Hendelse"
+      "Innlogging Hendelse",
+      "Feide"
     ],
     "temporalCoverage": {
       "start": "2023-02-07T21:14:08.998000",
@@ -386,12 +382,7 @@
           }
         }
       ]
-    },
-    "concepts": [
-      "Feide",
-      "Tjenesteleverandør",
-      "Vertsorganisasjon"
-    ]
+    }
   },
   {
     "name": "FEIDESTATS_LOGINS_FORG_SP_ACCUM",
@@ -401,7 +392,10 @@
       "value": "Feide Innlogging Hendelse"
     },
     "subjectFields": [
-      "Innlogging Hendelse"
+      "Innlogging Hendelse",
+      "Feide",
+      "Tjenesteleverandør",
+      "Vertsorganisasjon"
     ],
     "temporalCoverage": {
       "start": "2023-02-07T21:14:08.998000",
@@ -550,12 +544,7 @@
           }
         }
       ]
-    },
-    "concepts": [
-      "Feide",
-      "Tjenesteleverandør",
-      "Vertsorganisasjon"
-    ]
+    }
   },
   {
     "name": "FEIDESTATS_LOGINS_SCHOOL_SP_ACCUM",
@@ -565,7 +554,10 @@
       "value": "Feide Innlogging Hendelse"
     },
     "subjectFields": [
-      "Innlogging Hendelse"
+      "Innlogging Hendelse",
+      "Feide",
+      "Tjenesteleverandør",
+      "Vertsorganisasjon"
     ],
     "temporalCoverage": {
       "start": "2023-02-07T21:14:08.998000",
@@ -714,12 +706,7 @@
           }
         }
       ]
-    },
-    "concepts": [
-      "Feide",
-      "Tjenesteleverandør",
-      "Vertsorganisasjon"
-    ]
+    }
   },
   {
     "name": "FEIDESTATS_MFAS_FORG_ACCUM",
@@ -729,7 +716,10 @@
       "value": "Feide MFA Innlogging Hendelse"
     },
     "subjectFields": [
-      "MFA Innlogging Hendelse"
+      "MFA Innlogging Hendelse",
+      "Feide",
+      "Tjenesteleverandør",
+      "Vertsorganisasjon"
     ],
     "temporalCoverage": {
       "start": "2023-02-07T21:14:08.998000",
@@ -846,13 +836,7 @@
           }
         }
       ]
-    },
-    "concepts": [
-      "Feide",
-      "Tjenesteleverandør",
-      "Vertsorganisasjon",
-      "Flerfaktor-pålogging"
-    ]
+    }
   },
   {
     "name": "FEIDESTATS_MFAS_METHOD_ACCUM",
@@ -862,6 +846,10 @@
       "value": "Feide MFA Innlogging Hendelse"
     },
     "subjectFields": [
+      "Feide",
+      "Tjenesteleverandør",
+      "Vertsorganisasjon",
+      "Flerfaktor-pålogging",
       "MFA Innlogging Hendelse"
     ],
     "temporalCoverage": {
@@ -1089,13 +1077,7 @@
           }
         }
       ]
-    },
-    "concepts": [
-      "Feide",
-      "Tjenesteleverandør",
-      "Vertsorganisasjon",
-      "Flerfaktor-pålogging"
-    ]
+    }
   },
   {
     "name": "FEIDESTATS_MFAS_FORG_METHOD_ACCUM",
@@ -1105,6 +1087,10 @@
       "value": "Feide MFA Innlogging Hendelse"
     },
     "subjectFields": [
+      "Feide",
+      "Tjenesteleverandør",
+      "Vertsorganisasjon",
+      "Flerfaktor-pålogging",
       "MFA Innlogging Hendelse"
     ],
     "temporalCoverage": {
@@ -1309,13 +1295,7 @@
           }
         }
       ]
-    },
-    "concepts": [
-      "Feide",
-      "Tjenesteleverandør",
-      "Vertsorganisasjon",
-      "Flerfaktor-pålogging"
-    ]
+    }
   },
   {
     "name": "FEIDE_SP_ORG_ID",
@@ -1325,7 +1305,11 @@
       "value": "Delivered by provider"
     },
     "subjectFields": [
-      "Tjeneste"
+      "Tjeneste",
+      "Feide",
+      "Tjenesteleverandør",
+      "Vertsorganisasjon",
+      "Flerfaktor-pålogging"
     ],
     "temporalCoverage": {
       "start": "2023-02-07T21:14:08.998000",
@@ -1415,12 +1399,7 @@
           }
         }
       ]
-    },
-    "concepts": [
-      "Feide",
-      "Tjenesteleverandør",
-      "Vertsorganisasjon"
-    ]
+    }
   },
   {
     "name": "FEIDE_BRREG_ORG_ID",
@@ -1430,6 +1409,9 @@
       "value": "Feide Organization Identificator"
     },
     "subjectFields": [
+      "Feide",
+      "Tjenesteleverandør",
+      "Vertsorganisasjon",
       "Organisasjon"
     ],
     "temporalCoverage": {
@@ -1520,12 +1502,7 @@
           }
         }
       ]
-    },
-    "concepts": [
-      "Feide",
-      "Tjenesteleverandør",
-      "Vertsorganisasjon"
-    ]
+    }
   },
   {
     "name": "NSR_STUDENT_NUMBER",
@@ -1535,6 +1512,9 @@
       "value": "Number of students"
     },
     "subjectFields": [
+      "Feide",
+      "Tjenesteleverandør",
+      "Vertsorganisasjon",
       "Skole"
     ],
     "temporalCoverage": {
@@ -1915,12 +1895,7 @@
           }
         }
       ]
-    },
-    "concepts": [
-      "Feide",
-      "Tjenesteleverandør",
-      "Vertsorganisasjon"
-    ]
+    }
   },
   {
     "name": "BRREG_ENHETSNAVN",
@@ -1930,6 +1905,9 @@
       "value": "Name of organization"
     },
     "subjectFields": [
+      "Feide",
+      "Tjenesteleverandør",
+      "Vertsorganisasjon",
       "Organisasjon"
     ],
     "temporalCoverage": {
